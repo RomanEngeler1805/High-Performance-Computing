@@ -5,3 +5,4 @@ The topics of the exercises are:
 
 1. Roofline Model and Performance Measures
 2. Cache Design, Mutual Exclusion
+3. Monte Carlo, OpenMP, False Sharing
