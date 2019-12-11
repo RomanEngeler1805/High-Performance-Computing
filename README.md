@@ -11,3 +11,4 @@ The topics of the exercises are:
 6. PCA with Neural Networks
 7. Image Classification (GEMM)
 8. MPI: Blocking Communication
+9. Sparse Linear Algebra with MPI
