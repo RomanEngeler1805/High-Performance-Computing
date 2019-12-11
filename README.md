@@ -10,3 +10,4 @@ The topics of the exercises are:
 5. Power Method, BLAS/LAPACK, OpenMP
 6. PCA with Neural Networks
 7. Image Classification (GEMM)
+8. MPI: Blocking Communication
