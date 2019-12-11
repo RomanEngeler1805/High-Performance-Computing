@@ -1,0 +1,2 @@
+Number of Grid points: 1000
+Average elapsed Time: 3.37805e-06
