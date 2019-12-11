@@ -13,3 +13,4 @@ The topics of the exercises are:
 8. MPI: Blocking Communication
 9. Sparse Linear Algebra with MPI
 10. MPI File I/O, Data Compression
+11. 2D Diffusion, ADI, Thomas Algorithm
