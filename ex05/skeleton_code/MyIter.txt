@@ -1,0 +1,5 @@
+Implementation    	alpha    iter
+Own 		min 	0.125	 19
+Own 		max 	16	 21445
+CBLAS		min 	0.125	 15
+CBLAS		max 	16	 14341

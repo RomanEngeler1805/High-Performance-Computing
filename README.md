@@ -7,3 +7,4 @@ The topics of the exercises are:
 2. Cache Design, Mutual Exclusion
 3. Monte Carlo, OpenMP, False Sharing
 4. Amdahl's Law, Vectorization and ISPC
+5. Power Method, BLAS/LAPACK, OpenMP

@@ -1,0 +1,22 @@
+#!bin/bash
+
+gnuplot << EOF
+
+set terminal pngcairo;
+
+set xlabel 'alpha';
+set ylabel 'time [micro sec]';
+set output 'results.png';
+set macro
+set grid
+set logscale x 2
+set logscale y 2
+set key Left left bottom
+d='./'
+t0 = real(system("cut -d ' ' -f 2 MyOwnTime | head -n1"))
+plot \
+  d."MyOwnTime" u 1:2 w lp lw 3 pt 7 t 'Own Implementation', \
+  d."MyCblasTime" u 1:2 w lp lw 3 pt 7 t 'CBlas Implementation', \
+  t0/x w 1 lc rgb 'black' t 'ideal'
+
+EOF
