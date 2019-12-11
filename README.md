@@ -4,4 +4,4 @@ Repository for coding exercises in class "High Performance Computing for Science
 The topics of the exercises are:
 
 1. Roofline Model and Performance Measures
-2.
+2. Cache Design, Mutual Exclusion
